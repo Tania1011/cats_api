@@ -59,7 +59,7 @@ Cats_API/
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/Tania1011/cats-api.git
+git clone https://github.com/Tania1011/cats_api.git
 cd cats-api
 ```
 
@@ -142,7 +142,7 @@ class CatSerializer(serializers.ModelSerializer):
 ---
 
 
-# 🌐 The ViewSet
+# 🌐 ViewSet
 
 ```python
 from rest_framework import viewsets
@@ -155,7 +155,7 @@ class CatViewSet(viewsets.ModelViewSet):
 ```
 ---
 
-# 🔧 Configured Installed Apps
+# 🔧 Installed Apps
 
 ```python
 INSTALLED_APPS = [
@@ -167,7 +167,7 @@ INSTALLED_APPS = [
 
 ---
 
-# 🔗 Configured URLs
+# 🔗 URLs
 
 ## cats/urls.py
 
